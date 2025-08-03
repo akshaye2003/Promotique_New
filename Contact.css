@@ -1,0 +1,479 @@
+/* Contact Page Styles */
+
+/* Override Nicepage default white backgrounds */
+.u-body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+html {
+  background-color: #000000 !important;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
+.u-section-1 {
+  background-image: none;
+  background-color: #000000;
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Page Header */
+.contact-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.contact-header .u-text-1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: none;
+  letter-spacing: -1px;
+}
+
+.contact-subtitle {
+  font-size: 1.25rem;
+  color: #cccccc;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Contact Grid Layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin-bottom: 100px;
+  align-items: start;
+}
+
+/* Contact Information Section */
+.contact-info {
+  background: linear-gradient(135deg, #171717 0%, #1a1a1a 100%);
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333333;
+}
+
+.info-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.info-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background: #171717;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid #333333;
+  color: #ffffff;
+}
+
+.info-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.info-content h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+.info-content p {
+  font-size: 1rem;
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.appointment-item {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.appointment-link {
+  display: inline-block;
+  background: linear-gradient(135deg, #171717 0%, #333333 100%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  border: 1px solid #444444;
+  transition: all 0.3s ease;
+}
+
+.appointment-link:hover {
+  background: linear-gradient(135deg, #333333 0%, #444444 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border-color: #555555;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Calendar Section */
+.calendar-section {
+  background: linear-gradient(135deg, #171717 0%, #1a1a1a 100%);
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333333;
+}
+
+.calendar-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.calendar-description {
+  font-size: 1rem;
+  color: #cccccc;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.calendly-inline-widget {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional Contact Options */
+.contact-options {
+  margin-bottom: 80px;
+}
+
+.options-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.option-card {
+  background: linear-gradient(135deg, #171717 0%, #1a1a1a 100%);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  border: 1px solid #333333;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.option-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #444444, #666666, #444444);
+}
+
+.option-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border-color: #444444;
+}
+
+.option-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.option-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.option-card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.option-card p {
+  font-size: 1rem;
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.chat-button, .brief-button {
+  background: linear-gradient(135deg, #171717 0%, #333333 100%);
+  color: #ffffff;
+  border: 2px solid #444444;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.chat-button:hover, .brief-button:hover {
+  background: linear-gradient(135deg, #333333 0%, #444444 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border-color: #555555;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .contact-header .u-text-1 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-info,
+  .calendar-section {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    padding: 60px 0;
+  }
+  
+  .contact-header .u-text-1 {
+    font-size: 2rem;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .contact-options {
+    margin-bottom: 60px;
+  }
+  
+  .options-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info,
+  .calendar-section {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    padding: 0 15px;
+  }
+  
+  .contact-header .u-text-1 {
+    font-size: 1.75rem;
+  }
+  
+  .info-title,
+  .calendar-title,
+  .options-title {
+    font-size: 1.5rem;
+  }
+  
+  .contact-info,
+  .calendar-section {
+    padding: 25px 20px;
+  }
+  
+  .option-card {
+    padding: 30px 20px;
+  }
+}
+
+/* Animation for page load */
+.contact-header,
+.contact-info,
+.calendar-section,
+.option-card {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger animation for option cards */
+.option-card:nth-child(1) { animation-delay: 0.1s; }
+.option-card:nth-child(2) { animation-delay: 0.2s; }
+.option-card:nth-child(3) { animation-delay: 0.3s; }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+.appointment-link:focus,
+.info-item:focus-within,
+.chat-button:focus,
+.brief-button:focus,
+.social-link:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Loading state for calendar */
+.calendly-inline-widget {
+  min-height: 600px;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendly-inline-widget::before {
+
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Additional fixes for white page issue */
+.u-sheet {
+  background-color: transparent !important;
+}
+
+.u-container-layout {
+  background-color: transparent !important;
+}
+
+/* Ensure all sections maintain dark background */
+section {
+  background-color: #000000 !important;
+}
+
+/* Fix for any potential white backgrounds in the framework */
+.u-clearfix {
+  background-color: transparent !important;
+}
+
+/* Ensure proper z-index stacking */
+.u-section-1 {
+  position: relative;
+  z-index: 1;
+  background-color: #000000 !important;
+}
